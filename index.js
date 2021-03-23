@@ -9,8 +9,9 @@ const fn = mondayWork = function(destination = "go to the office"){
 mondayWork("work from home")
 
 
-function wrapAdjective(){
-function(){ result = wrapAdjective()
-let emphatic = "a hard worker"
-}
+function wrapAdjective(flair= "*"){
+    return function(baseline ="special"){ 
+    //let emphatic = "a hard worker"
+    return(`You are ${flair}${baseline}${flair}!`)
+    }
 }
